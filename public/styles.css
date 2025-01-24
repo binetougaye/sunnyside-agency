@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    font-family: "Fraunces", serif;
+}
+header {
+    background-image: url("./images/desktop/image-header.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+nav {
+    padding: 16px;
+    color: hsl(0, 0%, 100%);
+    font-size: 16px;
+}
+.nav-brand {
+    font-size: 24px;
+    font-weight: bolder;
+}
+.middle {
+    font-size: 60px;
+    margin-top: 150px;
+    color: hsl(0, 0%, 100%);
+}
+button {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(212, 27%, 19%);
+    width: 100px;
+    padding: 8px;
+}
+
+.image-container {
+    position: relative;
+}
+.test {
+    padding: 70px;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+h4 {
+    color: hsl(167, 40%, 24%);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.text-overlay h4 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: hsl(198, 62%, 26%);
+}
+
+.text-overlay p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+#testimonials {
+    padding: 80px;
+}
+.testimonials {
+    margin-top: 50px;
+}
+.text {
+    color: hsl(167, 40%, 24%);
+    margin-top: 30px;
+}
+h5 {
+    color: hsl(212, 27%, 19%);
+    font-weight: bold;
+    margin-top: 40px;
+}
+.job {
+    color: hsl(210, 4%, 67%);
+    margin-top: 10px;
+}
+.title {
+    color: hsl(210, 4%, 67%);
+}
+
+footer {
+    background-color: hsl(168, 34%, 41%);
+    padding: 80px;
+}
+.title-foot {
+    margin-top: 0;
+    font-size: 24px;
+}
+.foot-items {
+    margin-top: 16px;
+}
+.socials {
+    margin-top: 24px;
+}
+/* media screen */
+.hidden {
+    display: none;
+}
+.active {
+    display: flex;
+}
